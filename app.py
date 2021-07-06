@@ -4,7 +4,7 @@ from models import connect_db, db, User, Tweet
 from forms import UserForm, TweetForm
 from sqlalchemy.exc import IntegrityError
 import os
-# import re
+import re
 
 app = Flask(__name__)
 
